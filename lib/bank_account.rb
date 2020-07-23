@@ -1,6 +1,6 @@
 class BankAccount
   
-  def initialize(self)
-    new_bank_account = BankAccount.new
+  def initialize(name)
+    @name = name
   end 
 end
